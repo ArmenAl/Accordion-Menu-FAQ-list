@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lagn="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FAQ List JS</title>
+	<link rel="stylesheet" type="text/css" href="./faqstyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="./faqjs.js"></script>
+</head>
+<body>
+	<div id="faqbody">
+		<h1>FAQ</h1>
+		<hr>
+		<div class="card-header">Question #1	<span class="hide" id="arrow-up1">▲</span><span id="arrow-down1">▼</span>
+			<div class="card-body" id="answer1"><p>Answer 1</p></div>
+		</div>
+		<div class="card-header">Question #2	<span  class="hide" id="arrow-up2">▲</span><span id="arrow-down2">▼</span>
+			<div class="card-body" id="answer2"><p>Answer 2</p></div>
+		</div>
+		<div class="card-header">Question #3	<span class="hide" id="arrow-up3">▲</span><span id="arrow-down3">▼</span>
+			<div class="card-body" id="answer3"><p>Answer 3</p></div>
+		</div>
+		<div class="card-header">Question #4	<span  class="hide" id="arrow-up4">▲</span><span id="arrow-down4">▼</span>
+			<div class="card-body" id="answer4"><p>Answer 4</p></div>
+		</div>
+		<div class="card-header">Question #5	<span  class="hide" id="arrow-up5">▲</span><span id="arrow-down5">▼</span>
+			<div class="card-body" id="answer5"><p>Answer 5</p></div>
+		</div>
+		<div class="card-header">Question #6	<span  class="hide" id="arrow-up6">▲</span><span id="arrow-down6">▼</span>
+			<div class="card-body" id="answer6"><p>Answer 6</p></div>
+		</div>
+		
+		
+	</div>
+</body>
+</html>
